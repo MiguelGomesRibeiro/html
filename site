@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <title>Project Sun</title>
+		<link rel="stylesheet" href="estilo.css" />
+
+    </head>
+
+    <body>
+
+        <h1>Project Sun</h1>
+
+        <img width="400px" height="400px" src="logo.jpeg" alt="Project Sun" text="Project Sun" />
+
+        <h3>Quem Somos ?</h3>
+		
+        <p>Nós das Project Sun somos um estudio indie brasileiro com foco em desenvolvimento de jogos para o pulico maduro.</p>
+
+
+        <h3>O que fizemos ?</h3>
+		
+        <p>Atualmente possuimos apenas um unico jogo publicado...o "Paradiso Company" sendo vendido por R$20,00.</p>
+		
+		
+		<h1>"Paradiso Company"</h1>
+		
+        <p>A premissa do jogo envolve 12 pessoas que estão ativamente buscando alcançar uma cidade utopica chamada "Paradiso". Para chegar a Paradiso eles precisam juntar suas forças e entrarem nas partes mais profundas do "Limbus" e enfrentar seus traumas e arrependimentos para só assim eles vão receber passagem pelos portões de Paradiso</p>
+        
+		
+		<img src="personagens.png" width="700px" alt="Personagens" text="Personagens" />
+
+		<ul>
+			<li><a href="sobre.html">Saiba mais sobre nós</a></li>
+			<li><a href="contato.html">Entre em contato</a></li>
+			<li><a href="sorte.html">Tente um jogo de sorte para ganhar descontos!</a></li>
+			<li><a href="requisicao.html">Comissione um trabalho nosso!</a></li>
+		</ul>
+
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8" />
+		<title>Project Sun - Contato</title>
+		<link rel="stylesheet" href="estilo.css" />
+		
+    </head>
+
+    <body>
+
+        <h1>Project Sun</h1>
+        <h1>Contato</h1>
+
+		<p>Se você quer tirar uma dúvida, fazer uma sugestão, trabalhar conosco ou conhecer o nosso projeto, então você pode entrar em contato usando o formulário abaixo:</p>
+		
+        <form action="contatoOk.html">
+
+			 <label for="name">Nome completo:</label><br /> 
+			 <input type="text" id="name" name="name" /><br /><br /> 
+			
+			 <label for="mail">E-mail:</label><br /> 
+			 <input type="text" id="mail" name="mail" /><br /><br /> 
+			
+			 <label for="about">Assunto:</label></br> 
+			 <input type="text" id="about" name="about" /><br /><br /> 
+			
+			 <label for="contact">Telefone:</label><br /> 
+			 <input type="number" id="contact" name="contact" /><br /><br /> 
+			
+			 <label for="msg">Mensagem:</label><br /> 
+			 <textarea id="msg" name="msg" rows="7" cols="50"></textarea><br /><br /> 
+			 
+			 <input type="Submit" value="Enviar mensagem" class="botao" />
+
+        </form>
+
+		<ul>
+			<li><a href="index.html">Pagina principal</a></li>
+			<li><a href="sobre.html">Saiba mais sobre nós</a></li>
+			<li><a href="sorte.html">Tente um jogo de sorte para ganhar descontos!</a></li>
+			<li><a href="requisicao.html">Comissione um trabalho nosso!</a></li>
+		</ul>
+
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8" />
+		<title>Project Sun - Contato</title>
+		<link rel="stylesheet" href="estilo.css" />
+
+    </head>
+
+    <body>
+
+        <h1>Project Sun</h1>
+        <h1>Contato</h1>
+
+		<p>Obrigado pela sua mensagem.</p>
+		<p>Em breve retornamos para você.</p>
+		
+		<ul>
+			<li><a href="index.html">Pagina principal</a></li>
+			<li><a href="sobre.html">Saiba mais sobre nós</a></li>
+			<li><a href="sorte.html">Tente um jogo de sorte para ganhar descontos!</a></li>
+			<li><a href="requisicao.html">Comissione um trabalho nosso!</a></li>
+		</ul>
+
+    </body>
+</html>
+
+body {
+	background-color: black;
+	text-align: center;
+	margin-bottom: 50px;
+}    
+h1, h2, h3 {
+	text-align: center;
+	color: yellow;
+}
+
+p {
+	text-align: center;
+	color: white;
+}
+
+li {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+a {
+	text-align: center;
+	color: Teal;
+}
+
+label { color: yellow; text-align:center}
+input { width: 400px; text-align:center }
+
+.botao { height: 50px; }
+
+
+
+
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: black;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-section, .price-section {
+	margin: 20px 0;
+}
+
+.num-input {
+	width: 110px;
+}
+
+.tp-servico {
+	width: 400px;
+}
+
+.botao-enviar
+{
+	height: 50px;
+	width: 400px;
+}
+
+.btn {
+	background-color: yellow;
+	color: black;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 5px;
+}
+.btn:hover {
+	background-color: yellow;
+}
+.message {
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+}
+.success {
+	background-color: yellow;
+	color: black;
+}
+.error {
+	background-color: yellow;
+	color: black;
+}
+
+<?php
+$host = "localhost";
+$user = "root";
+$password = "";
+$dbname = "aquisicao_produto";
+$conn = new mysqli($host, $user, $password, $dbname);
+
+if ($conn->connect_error) {
+    echo "Erro na conexão com o banco de dados: " . $conn->connect_error;
+    exit;
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $nome = trim($_POST['nome']);
+    $email = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
+    $telefone = preg_replace('/\D/', '', $_POST['telefone']);
+    $servico = trim($_POST['servico']);
+    $detalhes = trim($_POST['detalhes']);
+
+    // Validações básicas
+    if (strlen($nome) < 3 || strlen($nome) > 100 || !preg_match("/^[a-zA-ZÀ-ÿ\s]+$/", $nome)) {
+        echo "Nome inválido.";
+        exit;
+    }
+
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo "E-mail inválido.";
+        exit;
+    }
+
+    if (!preg_match("/^\d{11}$/", $telefone)) {
+        echo "Telefone inválido.";
+        exit;
+    }
+
+    if (strlen($detalhes) < 10 || strlen($detalhes) > 255) {
+        echo "Detalhes inválidos.";
+        exit;
+    }
+    
+    $sql = "INSERT INTO solicitacoes (nome, email, telefone, servico, detalhes) VALUES (?, ?, ?, ?, ?)";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("sssss", $nome, $email, $telefone, $servico, $detalhes);
+
+    if ($stmt->execute()) 
+	{
+        header('Location: requisicaoOK.html');
+		exit;
+    } 
+	else 
+	{
+        echo "Erro ao enviar a solicitação: " . $stmt->error;
+    }
+
+    $stmt->close();
+}
+
+$conn->close();
+?>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comissão de Serviço</title>
+    <link rel="stylesheet" href="estilo.css" />
+</head>
+
+<body>
+
+    <h1>Comissão de Serviço</h1>
+	
+    <form id="formulario" action="processar-formulario.php" method="POST">
+        
+        <label for="nome">Nome do Usuário</label><br /> 
+        <input type="text" id="nome" name="nome" required minlength="3" maxlength="100" pattern="[a-zA-ZÀ-ÿ\s]+"><br /> <br /> 
+
+        <label for="email">E-mail</label><br /> 
+        <input type="email" id="email" name="email" required><br /> <br /> 
+
+        <label for="telefone">Telefone (xx) xxxxx-xxxx</label><br /> 
+        <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" required
+            pattern="\(\d{2}\) \d{5}-\d{4}"><br /> <br /> 
+
+        <label for="servico">Serviço</label><br /> 
+        <select id="servico" name="servico" class="tp-servico" required><br /> <br /> 
+            <option value="site">Criação de Site</option><br /> 
+            <option value="marketing">Criação de Campanha de Marketing</option><br /> 
+            <option value="publicidade">Ajuda na Publicidade</option><br />
+        </select><br /> <br /> 
+       
+        <label for="detalhes">Detalhes do Serviço</label><br /> 
+        <textarea id="detalhes" name="detalhes" rows="7" cols="50" required minlength="10" maxlength="255"></textarea><br /> <br /> 
+
+        
+        <button type="submit" class="botao-enviar">Enviar</button> 
+    </form>
+
+    <div id="mensagem-popup" class="oculto">
+        <span id="icone"></span>
+        <p id="mensagem-texto"></p>
+    </div>
+	
+    <script src="script.js"></script>
+
+   	<ul>
+		<li><a href="index.html">Pagina principal</a></li>
+		<li><a href="sobre.html">Saiba mais sobre nós</a></li>
+		<li><a href="contato.html">Entre em contato</a></li>
+		<li><a href="sorte.html">Tente um jogo de sorte para ganhar descontos!</a></li>
+	</ul>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8" />
+		<title>Project Sun - Contato</title>
+		<link rel="stylesheet" href="estilo.css" />
+
+    </head>
+
+    <body>
+
+        <h1>Project Sun</h1>
+        <h1>Contato</h1>
+
+		<p>Obrigado pela sua mensagem.</p>
+		<p>Em breve retornamos para você.</p>
+		
+		<ul>
+			<li><a href="index.html">Pagina principal</a></li>
+			<li><a href="sobre.html">Saiba mais sobre nós</a></li>
+			<li><a href="contato.html">Entre em contato</a></li>
+			<li><a href="sorte.html">Tente um jogo de sorte para ganhar descontos!</a></li>
+			<li><a href="requisicao.html">Comissione um trabalho nosso!</a></li>
+		</ul>
+
+    </body>
+</html>
+
+const telefoneInput = document.getElementById("telefone");
+
+IMask(telefoneInput, {
+    mask: "(00) 00000-0000",
+    lazy: false, 
+    placeholderChar: "_" 
+});
+
+function exibirMensagem(tipo, texto) {
+    const mensagemPopup = document.getElementById("mensagem-popup");
+    const icone = document.getElementById("icone");
+    const mensagemTexto = document.getElementById("mensagem-texto");
+
+   
+    mensagemTexto.textContent = texto;
+    if (tipo === "sucesso") {
+        mensagemPopup.className = "sucesso ativo";
+        icone.textContent = "✔️"; 
+    } else if (tipo === "erro") {
+        mensagemPopup.className = "erro ativo";
+        icone.textContent = "❌"; 
+    }
+
+    setTimeout(() => {
+        mensagemPopup.classList.remove("ativo");
+        setTimeout(() => {
+            mensagemPopup.style.display = "none";
+        }, 500); 
+    }, 3000);
+}
+
+document.getElementById("formulario").addEventListener("submit", function (e) {
+    e.preventDefault(); 
+
+    const formData = new FormData(this); 
+
+    fetch("processar-formulario.php", {
+        method: "POST",
+        body: formData,
+    })
+        .then((response) => response.text()) 
+        .then((data) => {
+            if (data.includes("sucesso")) {
+                exibirMensagem("sucesso", "Solicitação enviada com sucesso!");
+            } else {
+                exibirMensagem("erro", "Erro ao enviar a solicitação: " + data);
+            }
+        })
+        .catch((error) => {
+            exibirMensagem("erro", "Erro ao enviar os dados: " + error.message);
+        });
+});
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8" />
+		<title>Project Sun - Sobre nós</title>
+		<link rel="stylesheet" href="estilo.css" />
+		
+    </head>
+
+    <body>
+
+        <h1>Project Sun</h1>
+		
+        <h2>Nossa Historia</h2>
+		
+        <p>Nós da Project Sun começamos como um grupo de 5 amigos que não tinham nada alem de tempo livre e o sonho de criar jogos marcantes...nós 5 fizemos e lançamos nosso primeiro jogo "Paradiso Company" que teve uma recepção excelente no seu lançamento e isso apenas nos disse que estavamos no caminho certo. Hoje em dia temos um time de 15 pessoas com departamentos de arte,produção e musica. Continuamos atualizando e melhorando Paradiso Company para que ele vire o jogo que nos temos em nossa visão de qualidade sobre quantidade. Atualmente temos a nossa sede em um escritorio na Barra da Tijuca, na cidade do Rio de Janeiro.</p>
+        
+		
+		<h2>Nossa Missão</h2>
+		
+        <p>Nossa missão é desenvolver jogos com historias ricas e cativantes, e verdadeiramente, deixar o jogador imerso nos mundos que construimos.</p>
+
+		
+		<h2>Nossa Visão</h2>
+		
+        <p>Ser reconhecida como a líder global em desenvolvimento de jogos, elevando o padrão da indústria através de tecnologias avançadas, narrativas envolventes e um compromisso constante com a excelência e a diversidade.</p>
+		
+		
+		<h2>Nossos Valores</h2>
+		
+		<p>Inovação: Valorizamos a criatividade e a experimentação, buscando sempre novas maneiras de surpreender nossos jogadores.</p>
+		<p>Qualidade: Comprometemo-nos a entregar produtos que atendam aos mais altos padrões de qualidade, garantindo uma experiência de jogo excepcional.</p>
+		<p>Inclusão: Promovemos um ambiente onde todos se sintam bem-vindos, respeitados e representados, tanto em nossa equipe quanto em nossos jogos.</p>
+		<p>Colaboração: Acreditamos que o trabalho em equipe é fundamental para o sucesso, incentivando a troca de ideias e o aprendizado coletivo.</p>
+		<p>Responsabilidade: Agimos com integridade e respeito, levando em consideração o impacto social e ambiental de nossas atividades.</p>
+		
+		
+		<h3>Nosso Endereço</h3>
+		
+		<p>Av. das Américas, 500 - Barra da Tijuca, Rio de Janeiro - RJ, 22640-100</p>
+		
+		<img src="mapa.jpg" width="800px" />
+		
+		<ul>
+			<li><a href="index.html">Pagina principal</a></li>
+			<li><a href="contato.html">Entre em contato</a></li>
+			<li><a href="sorte.html">Tente um jogo de sorte para ganhar descontos!</a></li>
+			<li><a href="requisicao.html">Comissione um trabalho nosso!</a></li>
+		</ul>
+
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prorject Sun - Desconto</title>
+	<link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+
+    <div class="container">
+	
+        <h1>Desconto Surpresa</h1>
+    
+        <div class="game-section">
+            <h2>Sorte!</h2>
+            <p>Escolha 6 números entre 1 e 100.</p>
+            <input type="number" id="num1" max="100" min="1" placeholder="Número 1" class="num-input">
+            <input type="number" id="num2" max="100" min="1" placeholder="Número 2" class="num-input">
+            <input type="number" id="num3" max="100" min="1" placeholder="Número 3" class="num-input">
+            <input type="number" id="num4" max="100" min="1" placeholder="Número 4" class="num-input">
+            <input type="number" id="num5" max="100" min="1" placeholder="Número 5" class="num-input">
+            <input type="number" id="num6" max="100" min="1" placeholder="Número 6" class="num-input">
+            <button class="btn" onclick="verificarSorte()">Verificar Sorte</button>
+            <div id="resultadoSorte" class="message"></div>
+        </div>
+        
+        <div class="price-section">
+            <h2>Escolha do Produto</h2>
+            <p>Escolha o valor e o produto e insira quanto deseja pagar.</p>
+            <label for="produto">Produto:</label>
+            <select id="produto">
+                <option value="Camisa Paradiso Company">Camisa "Paradiso Company"</option>
+                <option value="Caneca Paradiso">Caneca "Paradiso"</option>
+                <option value="Chapeu Limbus">Chapeu "Limbus"</option>
+                <option value="DLC Homem Potencial">DLC "Homem Potencial"</option>
+                <option value="Unidade Exclusiva Lamentador">Unidade Exclusiva "Lamentador"</option>
+            </select>
+            <br><br>
+            <label for="preco">Valor que deseja pagar: R$</label>
+            <input type="number" id="preco" min="0" placeholder="Insira o valor" class="num-input">
+            <button class="btn" onclick="calcularPreco()">Definir Preço</button>
+            <div id="resultadoPreco" class="message"></div>
+        </div>
+    </div>
+
+    <script>
+        function verificarSorte() 
+		{
+			const numerosSorteados = [4, 12, 89];
+			
+            let acertos = 0;
+            const numerosEscolhidos = [
+                parseInt(document.getElementById('num1').value),
+                parseInt(document.getElementById('num2').value),
+                parseInt(document.getElementById('num3').value),
+                parseInt(document.getElementById('num4').value),
+                parseInt(document.getElementById('num5').value),
+                parseInt(document.getElementById('num6').value)
+            ];
+
+          
+            for (let i = 0; i < numerosEscolhidos.length; i++) {
+                if (numerosSorteados.includes(numerosEscolhidos[i])) {
+                    acertos++;
+                }
+            }
+
+           
+            let mensagem = '';
+            if (acertos > 0) {
+                const desconto = acertos * 15;
+                mensagem = `Você acertou ${acertos} número(s)! Você ganhou ${desconto}% de desconto!`;
+                document.getElementById('resultadoSorte').classList.add('success');
+                document.getElementById('resultadoSorte').classList.remove('error');
+            } else {
+                mensagem = 'Nenhum número sorteado foi acertado. Tente novamente!';
+                document.getElementById('resultadoSorte').classList.add('error');
+                document.getElementById('resultadoSorte').classList.remove('success');
+            }
+            document.getElementById('resultadoSorte').innerHTML = mensagem;
+        }
+
+        
+        function calcularPreco() {
+            const produto = document.getElementById('produto').value;
+            const precoEscolhido = parseFloat(document.getElementById('preco').value);
+            
+            if (isNaN(precoEscolhido) || precoEscolhido <= 0) {
+                document.getElementById('resultadoPreco').innerHTML = 'Por favor, insira um valor válido!';
+                document.getElementById('resultadoPreco').classList.add('error');
+                document.getElementById('resultadoPreco').classList.remove('success');
+                return;
+            }
+
+            let mensagem = `Você escolheu o(a) ${produto} e deseja pagar R$ ${precoEscolhido.toFixed(2)}.`;
+            document.getElementById('resultadoPreco').innerHTML = mensagem;
+            document.getElementById('resultadoPreco').classList.add('success');
+            document.getElementById('resultadoPreco').classList.remove('error');
+        }
+    </script>
+	
+	<ul>
+		<li><a href="index.html">Pagina principal</a></li>
+		<li><a href="sobre.html">Saiba mais sobre nós</a></li>
+		<li><a href="contato.html">Entre em contato</a></li>
+		<li><a href="requisicao.html">Comissione um trabalho nosso!</a></li>
+	</ul>
+
+</body>
+</html>
